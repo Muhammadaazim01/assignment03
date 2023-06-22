@@ -1,6 +1,19 @@
 void main(){
-List<int> numbers = [2,6,8,10,12,19,21]; 
-List<bool> result = numbers.map((num) => num % 2 == 0).toList();
-print(numbers);
-print(result);
+List<int> numbers = [7, 3, 34, 200, 10, 70];
+  int smallestnum = numbers.reduce((a, b) => a < b ? a : b);
+  int greatestnum = numbers.reduce((a, b) => a > b ? a : b);
+  print("smallestnum$smallestnum");
+  print("greatestnum$greatestnum");
+
+
+
+
+
+
+
+
+
+
+
+
 }
